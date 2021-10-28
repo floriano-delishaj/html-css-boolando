@@ -100,10 +100,15 @@ body {
     text-decoration: line-through;
 }
 
-.activate {
+.img-on {
     width: 100%;
     display: none;
 }
-.card:hover .activate {
-    display: block;
+
+.card:hover .img-off{
+    display: none;
+}
+
+.card:hover .img-on {
+    display: inline-block;
 }
